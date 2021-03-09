@@ -1,0 +1,20 @@
+.Header {
+  padding: 10px 15px;
+  margin: 45px;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Nav--img img {
+  width: 270px;
+}
+
+.Nav--info--links {
+  color: white;
+  text-decoration: none;
+  margin: 0px 20px;
+  font-size: 20px;
+}
