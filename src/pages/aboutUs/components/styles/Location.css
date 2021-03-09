@@ -1,0 +1,42 @@
+:root {
+  --white-color: #ffffff;
+}
+
+.Location--card {
+  display: flex;
+  text-align: center;
+  margin: 30px 0px 50px 0px;
+}
+
+.Location--img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.Location--subtitle {
+  font-size: 28px;
+}
+
+.Location--card__img {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.Location--card__img img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.Location--container__info {
+  color: var(--white-color);
+  font-size: 24px;
+}
+
+#link--location {
+  text-decoration: underline;
+}

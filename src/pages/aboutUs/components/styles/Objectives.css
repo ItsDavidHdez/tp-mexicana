@@ -1,0 +1,28 @@
+:root {
+  --font-color: #818181;
+}
+
+.Objectives {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Objectives--img img {
+  width: 250px;
+}
+
+.Objectives--info {
+  width: 550px;
+}
+
+.Objectives--info__title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.Objectives--info__par {
+  color: var(--font-color);
+  font-size: 20px;
+  text-align: center;
+  line-height: 27px;
+}

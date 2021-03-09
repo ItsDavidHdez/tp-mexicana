@@ -1,0 +1,46 @@
+:root {
+  --font-color: #818181;
+  --title-color: #ffffff;
+  --font-size: 16px;
+}
+
+.History {
+  color: var(--font-color);
+}
+
+.History--title,
+.Mission--title,
+.Organization--title,
+.Location--title {
+  color: var(--title-color);
+  font-size: 60px;
+  text-align: center;
+}
+
+.History--container {
+  text-align: center;
+}
+
+.History--container__img {
+  width: 800px;
+  background-size: cover;
+  background-position: center;
+}
+
+.History--subtitle {
+  color: var(--title-color);
+  font-size: 30px;
+  text-align: center;
+}
+
+.History--info {
+  margin: 50px 0px 100px 0px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 27px;
+}
+
+.Organization--img {
+  text-align: center;
+  margin: 0px 0px 150px 0px;
+}
