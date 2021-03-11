@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ title, img, children }) => {
+const Cards = ({ title, img, children }) => {
   return (
     <div className="Services--container">
       <h3 className="Services--container__title">{title}</h3>
@@ -12,4 +12,4 @@ const Card = ({ title, img, children }) => {
   );
 };
 
-export default Card;
+export default Cards;
