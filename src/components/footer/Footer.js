@@ -1,4 +1,7 @@
 import React from "react";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import "./Footer.css";
 
 const Footer = () => {
@@ -10,9 +13,9 @@ const Footer = () => {
           Todos los derechos reservados.
         </p>
         <div className="Footer--social">
-          <img alt="Facebook" />
-          <img alt="Instagram" />
-          <img alt="linkedin" />
+          <FaFacebook size="25" />
+          <FaInstagram size="25" />
+          <FaLinkedin size="25" />
         </div>
         <span></span>
       </div>
