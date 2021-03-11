@@ -82,9 +82,9 @@ const Work = () => {
               <li>Sistemas ácidos emulsionados.</li>
               <li>Sistemas no ácidos orgánicos.</li>
             </ul>
-            <button type="button" className="Services--info__button">
-              OBTÉN MÁS INFORMACIÓN
-            </button>
+            <div className="Services--info__a">
+              <a href="#nuestros-servicios">OBTÉN MÁS INFORMACIÓN</a>
+            </div>
           </div>
         </Cards>
       </div>

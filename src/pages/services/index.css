@@ -46,12 +46,21 @@
   text-align: start;
 }
 
-.Services--info__button {
+.Services--info__a {
   height: 45px;
-  width: 300px;
+  background-color: white;
+  width: 270px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.Services--info__a a {
   border: none;
-  border-radius: 6px;
-  margin-top: 12px;
+  text-decoration: none;
+  color: black;
   font-size: 14px;
 }
 
