@@ -1,5 +1,5 @@
 import React from "react";
-import { Cards } from "../components";
+import { Cards } from ".";
 import bombeos from "../../../assets/img/bombeos.webp";
 import cementaciones from "../../../assets/img/cementaciones.webp";
 import estimulaciones from "../../../assets/img/estimulaciones.webp";
@@ -7,7 +7,7 @@ import lineaAcero from "../../../assets/img/linea-acero.webp";
 import reparacion from "../../../assets/img/reparacion.webp";
 import tuberia from "../../../assets/img/tuberia.webp";
 
-const Work = () => {
+const Works = () => {
   return (
     <section className="Services">
       <div className="Container">
@@ -156,4 +156,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Works;

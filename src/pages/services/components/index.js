@@ -1,4 +1,5 @@
 import Cards from "./Cards";
-// import Work from "./Work";
+import Datas from "./Datas";
+import Works from "./Works";
 
-export { Cards };
+export { Cards, Datas, Works };
