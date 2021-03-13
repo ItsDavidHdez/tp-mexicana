@@ -1,0 +1,75 @@
+:root {
+  --color-font: #ffffff;
+}
+
+.sliderimg {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.Home {
+  margin: 0;
+  background-color: #161616;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.System--title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.System--certified {
+  display: flex;
+  justify-content: space-between;
+}
+
+.System--certified__container {
+  padding: 30px;
+  text-align: center;
+  width: 320px;
+}
+
+.System--certified__container p {
+  font-size: 24px;
+}
+
+.System--certified__container img {
+  width: 240px;
+}
+
+.Map--title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.Map--imgContainer {
+  max-width: auto;
+}
+
+.Blog--title {
+  font-size: 50px;
+  text-align: center;
+  margin: 40px 0px 50px 0px;
+}
+
+.Blog--container {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.Blog--card {
+  border: 1px solid green;
+  margin: 10px;
+  height: 290px;
+  width: 225px;
+  color: var(--color-font);
+}
+
+.Blog--card__a {
+  color: var(--color-font);
+  text-decoration: none;
+}

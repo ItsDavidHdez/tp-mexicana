@@ -13,9 +13,15 @@ const Footer = () => {
           Todos los derechos reservados.
         </p>
         <div className="Footer--social">
-          <FaFacebook size="25" />
-          <FaInstagram size="25" />
-          <FaLinkedin size="25" />
+          <a href="https://www.facebook.com/TPMexicana">
+            <FaFacebook size="25" color="white" />
+          </a>
+          <a href="https://www.instagram.com/tecnicaprofesionalmexicana/">
+            <FaInstagram size="25" color="white" />
+          </a>
+          <a href="https://www.linkedin.com/in/recursos-humanos-193126200/">
+            <FaLinkedin size="25" color="white" />
+          </a>
         </div>
         <span></span>
       </div>
