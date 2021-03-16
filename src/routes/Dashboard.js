@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import Home from "../pages/Home";
 import Experience from "../pages/Experience";
 import Services from "../pages/services";
-import Contact from "../pages/Contact";
+import Contact from "../pages/contact";
 import Galery from "../pages/Galery";
 import NotFound from "../pages/NotFound";
 import AboutUs from "../pages/aboutUs";
