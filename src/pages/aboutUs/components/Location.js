@@ -5,9 +5,11 @@ import "./styles/Location.css";
 
 const Location = () => {
   return (
-    <section className="Location">
-      <h2 className="Location--title">Nuestras ubicaciones</h2>
-      <div className="Location--card">
+    <section className="container mx-auto">
+      <h2 className="font-sans md:font-serif text-6xl mb-6 text-center mt-24">
+        Nuestras ubicaciones
+      </h2>
+      <div className="flex text-center mt-16 mb-16">
         <Locations img={imgTp} title="Matriz Ciudad del Carmen" info="">
           <p className="Location--container__info">
             Calle 65, No.42, Col. Playa Norte, C.P. 24115, Ciudad del Carmen,
