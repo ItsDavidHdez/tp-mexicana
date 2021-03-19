@@ -12,10 +12,10 @@ const Footer = () => {
           Copyright © 2020 Técnica Profesional Mexicana S.A. de C.V. - <br />
           Todos los derechos reservados.
         </p>
-        <div className="Footer--social">
-          <FaFacebook size="25" />
-          <FaInstagram size="25" />
-          <FaLinkedin size="25" />
+        <div className="flex">
+          <FaFacebook size="25" className="mr-6" />
+          <FaInstagram size="25" className="mr-6" />
+          <FaLinkedin size="25" className="mr-6" />
         </div>
         <span></span>
       </div>

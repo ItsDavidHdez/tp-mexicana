@@ -10,9 +10,7 @@ const AboutUs = () => {
   return (
     <>
       <section className="container mx-auto px-4 font-sans">
-        <h1 className="font-sans md:font-serif text-6xl text-center	mb-6">
-          Nosotros
-        </h1>
+        <h1 className="text-6xl text-center	mb-6">Nosotros</h1>
         <hr />
         <h3 className="sm:text-4xl text-center mt-16 mb-8">Historia</h3>
         <div className="flex justify-center mb-8">
