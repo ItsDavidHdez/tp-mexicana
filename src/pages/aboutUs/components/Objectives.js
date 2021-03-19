@@ -3,12 +3,12 @@ import "./styles/Objectives.css";
 
 const Objectives = ({ img, title, children }) => {
   return (
-    <div className="Objectives">
-      <div className="Objectives--img">
-        <img src={img} alt={title} />
+    <div className="flex justify-around mb-28 mt-16">
+      <div className="self-center w-2/4 flex justify-center">
+        <img className="w-96" src={img} alt={title} />
       </div>
-      <div className="Objectives--info">
-        <h3 className="Objectives--info__title">{title}</h3>
+      <div className="text-base	w-2/4">
+        <h3 className="text-3xl	text-center mb-8">{title}</h3>
         {children}
       </div>
     </div>

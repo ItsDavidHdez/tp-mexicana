@@ -8,40 +8,45 @@ import "./AboutUs.css";
 
 const AboutUs = () => {
   return (
-    <div className="App">
-      <section className="History">
-        <h1 className="History--title">Nosotros</h1>
-        <h3 className="History--subtitle">Historia</h3>
-        <div className="History--container">
+    <>
+      <section className="container mx-auto px-4 font-sans">
+        <h1 className="font-sans md:font-serif text-6xl text-center	mb-6">
+          Nosotros
+        </h1>
+        <hr />
+        <h3 className="sm:text-4xl text-center mt-16 mb-8">Historia</h3>
+        <div className="flex justify-center mb-8">
           <img
             className="History--container__img"
             src={imgGroup}
             alt="Nosotros"
           />
         </div>
-        <p className="History--info">
-          TPMexicana inicia sus operaciones al abrir su base operativa en el año
-          2005 en la Ciudad de Poza Rica, Veracruz ofreciendo al mercado
-          petrolero servicios de registro de parámetros en tiempo real. En 2009
-          comienza a proveer servicios de bombeos con Unidades de Alta Presión,
-          en 2011 traslada su matriz a Ciudad del Carmen, Campeche y abre su
-          segunda base operaciones en Comalcalco, Tabasco continuando la línea
-          de servicios de Bombeo a Alta Presión consolidándose como un fuerte
-          competidor en el mercado. Más tarde en 2016 expande sus líneas de
-          servicios, incorporando los servicios de Tubería Flexible,
-          Estimulaciones, Cementaciones y Línea de Acero, para finalmente en
-          2017 integrar la línea de terminación y reparación de pozos. <br /> En
-          la actualidad ofrecemos soluciones y servicios integrales con
-          Ingeniería aplicada y personal técnico calificado fortaleciendo su
-          competencia en el mercado petrolero mexicano.
-        </p>
+        <div className="mt-16 text-2xl text-center mb-28">
+          <p className="text-gray-500 text-center">
+            TPMexicana inicia sus operaciones al abrir su base operativa en el
+            año 2005 en la Ciudad de Poza Rica, Veracruz ofreciendo al mercado
+            petrolero servicios de registro de parámetros en tiempo real. En
+            2009 comienza a proveer servicios de bombeos con Unidades de Alta
+            Presión, en 2011 traslada su matriz a Ciudad del Carmen, Campeche y
+            abre su segunda base operaciones en Comalcalco, Tabasco continuando
+            la línea de servicios de Bombeo a Alta Presión consolidándose como
+            un fuerte competidor en el mercado. Más tarde en 2016 expande sus
+            líneas de servicios, incorporando los servicios de Tubería Flexible,
+            Estimulaciones, Cementaciones y Línea de Acero, para finalmente en
+            2017 integrar la línea de terminación y reparación de pozos. <br />{" "}
+            En la actualidad ofrecemos soluciones y servicios integrales con
+            Ingeniería aplicada y personal técnico calificado fortaleciendo su
+            competencia en el mercado petrolero mexicano.
+          </p>
+        </div>
       </section>
-      <section className="Mission">
-        <h2 className="Mission--title">
+      <section className="container mx-auto">
+        <h2 className="font-sans md:font-serif text-6xl mb-6 text-center">
           Política Integral, Misión, Visión, Valores
         </h2>
         <Objectives img={imgPolitics} title="Política Integral">
-          <p className="Objectives--info__par">
+          <p className="text-gray-500 text-center">
             Técnica Profesional Mexicana S.A de C.V. realiza servicios a la
             industria petrolera cumpliendo con los más altos estándares de
             calidad satisfaciendo plenamente los requerimientos y expectativas
@@ -61,7 +66,7 @@ const AboutUs = () => {
           </p>
         </Objectives>
         <Missions img={imgTp} title="Misión">
-          <p className="Objectives--info__par">
+          <p className="text-gray-500 text-center">
             Somos una compañía Mexicana, dedicada a proveer servicios en el
             ámbito de la industria. Buscando siempre prestar el mejor servicio,
             brindando calidad, seguridad, responsabilidad y protección al medio
@@ -70,14 +75,14 @@ const AboutUs = () => {
           </p>
         </Missions>
         <Objectives img={imgTp} title="Visión">
-          <p className="Objectives--info__par">
+          <p className="text-gray-500 text-center">
             Seguir proporcionado a nuestros clientes, la alternativa más viable
             para resolver sus necesidades, utilizando los más altos estándares
             de calidad en nuestros servicios.
           </p>
         </Objectives>
         <Missions img={imgTp} title="Valores" info="">
-          <p className="Objectives--info__par">
+          <p className="text-gray-500 text-center">
             Trabajamos con calidad, entusiasmo y esmero por ser siempre los
             mejores, de la misma manera esperamos con nuestros servicios
             contribuir al desarrollo en armonía de nuestros clientes.
@@ -108,14 +113,16 @@ const AboutUs = () => {
           </ul>
         </Missions>
       </section>
-      <section className="Organization">
-        <h2 className="Organization--title">Organigrama</h2>
-        <div className="Organization--img">
+      <section className="container mx-auto">
+        <h2 className="font-sans md:font-serif text-6xl mb-6 text-center">
+          Organigrama
+        </h2>
+        <div className="flex justify-center mt-20">
           <img src={organization} alt="Organigrama" />
         </div>
       </section>
       <Location />
-    </div>
+    </>
   );
 };
 
